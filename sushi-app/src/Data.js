@@ -108,6 +108,14 @@ const Data = {
             description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget.',
             price : 8.99,  
         },
+    ],
+    ramen : [
+        {
+            image : `./images/ramen/ramen.jpg`,
+            name  : 'ramen',
+            description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget.',
+            price : 8.99, 
+        }
     ]
     }
 

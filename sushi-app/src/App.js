@@ -1,13 +1,14 @@
-import Data from './Data'
+import Header from './Components/Header';
+import Main from './Components/Main';
+import Inner from './Components/Inner'
 
 function App() {
-  console.log(Data.sushi)
-  // const allData = Data.sushi.map( item => <img src={item.image}></img>);
-  // const allData = Data.desserts.map( item => <img src={item.image}></img>);
-  // const allData = Data.drinks.map( item => <img src={item.image}></img>);
+
   return (
-   <div>
-      {/* {allData} */}
+   <div className="App">
+      <Header />
+      <Inner />
+      <Main />
    </div>
   );
 }
