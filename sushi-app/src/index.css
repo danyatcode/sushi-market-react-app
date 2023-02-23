@@ -863,6 +863,15 @@ hr{
   transform: translateY(-5px);
   opacity: 0.8;
 }
+.cart::-webkit-scrollbar-track, .cart-items::-webkit-scrollbar-thumb, .cart-items::-webkit-scrollbar{
+  opacity: 0;
+}
+.cart-items::-webkit-scrollbar-track, .cart-items::-webkit-scrollbar-thumb, .cart-items::-webkit-scrollbar{
+  background-color: transparent;
+}
+.showed-item::-webkit-scrollbar-track, .showed-item::-webkit-scrollbar-thumb, .showed-item::-webkit-scrollbar{
+  background-color: transparent;
+}
 
 @media (max-width: 1240px) {
   .App,
@@ -1009,7 +1018,7 @@ hr{
   .cart{
     height: 80%;
     overflow-y: scroll;
-  }
+  } 
   .opened-cart{
     padding: 30px;
   }
